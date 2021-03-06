@@ -5,12 +5,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Home | {process.env.SITE_NAME}</title>
+        <title>about | Blog</title>
       </Head>
       <main>
-        <h1>Blog</h1>
-        <span>Bienvenidos</span>
-        <span>{process.env.API_BLOG}</span>
+        <h1>About</h1>
+        <span>Acerca de nos....</span>
       </main>
     </div>
   )
